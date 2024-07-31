@@ -1,1 +1,65 @@
 /*ini css*/
+nav {
+  border: solid 1px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 110px;
+  margin-right: 110px;
+  align-items: center;
+}
+
+.navContainer {
+  display: flex;
+  padding: 10px;
+}
+
+.navItem {
+  border: solid 1px;
+  padding: 12px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  border: solid 1px;
+  background-image: url(https://w7.pngwing.com/pngs/719/645/png-transparent-mcdonalds-round-logo.png);
+  height: 10px;
+  width: 18px;
+  background-size: cover;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.judul {
+  text-align: center;
+  border: solid 1px;
+  margin-right: 110px;
+  margin-left: 110px;
+  margin-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.judulUtama {
+  font-size: 28px;
+}
+
+.subJudul {
+  padding-top: 40px;
+  color: grey;
+}
+
+.display {
+  border: solid 1px;
+  width: 100%;
+  height: 250px;
+}
+
+.contact {
+  border: solid 1px;
+  width: 100%;
+  height: 250px;
+}
+
+.displayContact {
+  display: flex;
+}
